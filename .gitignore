@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+data/*.csv
+data/*.parquet
+models/*.joblib
+mlruns/
+mlflow.db
+.dvc/cache/
+
+# Feast
+wine_feature_repo/feature_repo/data/registry.db
+wine_feature_repo/feature_repo/data/*.parquet
+wine_feature_repo/feature_repo/data/online_store.db
