@@ -1,0 +1,6 @@
+dvc
+feast
+mlflow
+pandas
+pyarrow
+scikit-learn
