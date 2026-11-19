@@ -1,0 +1,6 @@
+dvc>=3.0,<4.0
+feast>=0.40,<1.0
+mlflow>=3.0,<4.0
+pandas>=2.0
+pyarrow>=14.0
+scikit-learn>=1.3
