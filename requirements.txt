@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 pandas
 scikit-learn
 pyarrow
 mlflow
 feast
 DVC
+=======
+dvc>=3.0,<4.0
+feast>=0.40,<1.0
+mlflow>=3.0,<4.0
+pandas>=2.0
+pyarrow>=14.0
+scikit-learn>=1.3
+>>>>>>> 8f5f889b7bbef22de8eca763dfb87e89aef517b3

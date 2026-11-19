@@ -1,6 +1,7 @@
 .venv/
 __pycache__/
 *.py[cod]
+<<<<<<< HEAD
 data/*.csv
 data/*.parquet
 models/*.joblib
@@ -12,3 +13,16 @@ mlflow.db
 wine_feature_repo/feature_repo/data/registry.db
 wine_feature_repo/feature_repo/data/*.parquet
 wine_feature_repo/feature_repo/data/online_store.db
+=======
+**/data/*.csv
+**/data/*.parquet
+models/*.joblib
+mlruns/
+mlartifacts/
+mlflow.db
+mlflow.db-*
+*.db
+*.db-*
+.dvc/cache/
+.dvc/tmp/
+>>>>>>> 8f5f889b7bbef22de8eca763dfb87e89aef517b3

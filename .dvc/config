@@ -1,4 +1,8 @@
 [core]
     remote = myremote
 ['remote "myremote"']
+<<<<<<< HEAD
     url = /Users/akshaychaudhari/dvc-remote-storage
+=======
+    url = ../../dvc-remote-storage
+>>>>>>> 8f5f889b7bbef22de8eca763dfb87e89aef517b3

@@ -2,9 +2,20 @@ from datetime import timedelta
 
 from feast import Entity, FeatureService, FeatureView, Field, FileSource
 from feast.types import Float32, Int64
+<<<<<<< HEAD
 
 
 sample = Entity(name="sample_id", join_keys=["sample_id"])
+=======
+from feast.value_type import ValueType
+
+
+sample = Entity(
+    name="sample_id",
+    join_keys=["sample_id"],
+    value_type=ValueType.INT64,
+)
+>>>>>>> 8f5f889b7bbef22de8eca763dfb87e89aef517b3
 
 wine_source = FileSource(
     name="wine_source",

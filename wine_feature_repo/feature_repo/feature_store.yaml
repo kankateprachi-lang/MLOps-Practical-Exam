@@ -4,4 +4,9 @@ provider: local
 online_store:
   type: sqlite
   path: data/online_store.db
+<<<<<<< HEAD
 entity_key_serialization_version: 3
+=======
+offline_store:
+  type: file
+>>>>>>> 8f5f889b7bbef22de8eca763dfb87e89aef517b3
